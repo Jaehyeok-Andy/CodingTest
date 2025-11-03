@@ -1,9 +1,5 @@
-// 정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.
+// 머쓱이는 선생님이 몇 년도에 태어났는지 궁금해졌습니다. 2022년 기준 선생님의 나이 age가 주어질 때, 선생님의 출생 연도를 return 하는 solution 함수를 완성해주세요.
 
-function solution(num1, num2){
-    if(num1 === num2){
-        return 1
-    }else{
-        return -1
-    }
+function solution(age) {
+  return 2022 - age + 1;
 }
